@@ -31,6 +31,10 @@ ALLOWED_HOSTS = ['rb52.ru']
 # Application definition
 
 INSTALLED_APPS = [
+    'help',
+    'home',
+    'office',
+    'search',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
