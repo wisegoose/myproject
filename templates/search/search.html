@@ -1,0 +1,9 @@
+{% extends 'temp/base.html' %}
+{% block content %}
+    <div>
+        {% for obj in object_list %}
+            <a href="search/{{ obj.id }}">{{ obj.price }}{{ obj.area }}{{ obj.photos }}</a>
+
+        {% endfor %}
+    </div>
+{% endblock %}
